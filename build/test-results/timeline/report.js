@@ -1,4 +1,4 @@
 $(document).ready(function() {
-CucumberHTML.timelineItems.pushArray([{"id":"feb02e88-b1ad-4844-ae84-7315223565e7","feature":"Answer survey","scenario":"Answer good survey","start":1697315250877,"group":32,"content":"","tags":"","end":1697315260486,"className":"passed"}]);
-CucumberHTML.timelineGroups.pushArray([{"id":32,"content":"Thread[#32,ForkJoinPool-2-worker-1,5,main]"}]);
+CucumberHTML.timelineItems.pushArray([{"id":"3e62ae8d-a8ed-4a68-9568-b509aeede75e","feature":"Moneylion","scenario":"Access to MoneyLion about page","start":1724497172320,"group":32,"content":"","tags":"@najwa,","end":1724497192047,"className":"failed"},{"id":"2fbcf976-9ae3-4009-8179-cd99e7050588","feature":"Moneylion","scenario":"Access to MoneyLion about page","start":1724497172363,"group":36,"content":"","tags":"@ammar,","end":1724497191256,"className":"failed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":32,"content":"Thread[#32,ForkJoinPool-2-worker-1,5,main]"},{"id":36,"content":"Thread[#36,ForkJoinPool-2-worker-2,5,main]"}]);
 });
