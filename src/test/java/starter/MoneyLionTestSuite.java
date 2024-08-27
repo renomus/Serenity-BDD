@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
                 "src/test/resources/features/moneylion.feature"
         },
         plugin = {"pretty", "json:target/cucumber.json"},
-        glue = {"starter"}
+        glue = {"starter", "starter.hooks"}
 )
 
 public class MoneyLionTestSuite {
