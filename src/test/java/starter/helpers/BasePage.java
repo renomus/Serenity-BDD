@@ -69,4 +69,12 @@ public class BasePage {
 
 
     }
+
+    public void scrollToElement(String element){
+        actions.moveToElement(driver.findElement(By.xpath(String.format("//*[contains(text(), '%s')]",element)))).perform();
+    }
+
+    public void seeFaqsQuestion (){
+        WebElement question = driver.findElement(By.xpath(("//*[contains (text(), 'How do I get Instacash')], ")));
+    }
 }

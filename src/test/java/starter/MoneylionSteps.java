@@ -31,4 +31,14 @@ public class MoneylionSteps extends BasePage{
     public void iShouldBeAbleToSeeLocationBlocks(String locations, String section) {
         verifyLocation(locations, section);
     }
+
+    @And("I scroll to view the {string} section")
+    public void iScrollToViewTheSection(String element) {
+        scrollToElement(element);
+    }
+
+    @Then("I should be able to see <question> is displayed")
+    public void iShouldBeAbleToSeeQuestionIsDisplayed() {
+
+    }
 }
